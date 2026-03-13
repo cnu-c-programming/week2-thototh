@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void){
+int main(){
 
     float a = 0.1 + 0.2;
     float b = 0.3;
