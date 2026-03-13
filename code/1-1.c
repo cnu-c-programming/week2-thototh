@@ -4,7 +4,7 @@ int main(void){
     int var1 = 100;
     printf("int : %d\n", var1);
     printf("hex : %0x\n", var1);
-    printf("hex : %o\n", var1);
+    printf("oct : %o\n", var1);
 
     char var2 = 'c';
     printf("char : %c\n", var2);
