@@ -1,8 +1,27 @@
 #include <stdio.h>
 
-int main()
-{
+int main(void){
+
+    int a, b;
+    char c;
+
+    scanf("%d %d %c", &a, &b, &c);
+    switch (c)
+    {
+    case '-':
+        printf("%d", a-b);
+        break;
+    case '+':
+        printf("%d", a+b);
+        break;
+    case '*':
+        printf("%d", a*b);
+        break;
+    case '/':
+        printf("%f", (float)a/b);
+        break;
+    }
+     
 
     return 0;
 }
-
