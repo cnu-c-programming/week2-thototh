@@ -14,7 +14,7 @@ int main(void){
 
     printf("c = %.100f\n", c);
     printf("d = %.100f\n", d);
-    printf("c == d is %.100f\n", c == d);
+    printf("c == d is %d\n", c == d);
 
     return 0;
 }
