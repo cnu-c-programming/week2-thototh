@@ -7,7 +7,7 @@ int main(){
 
     printf("a = %.100f\n", a);
     printf("b = %.100f\n", b);
-    printf("1 == b is %d\n", a == b);
+    printf("a == b is %d\n", a == b);
 
     double c = 0.1 + 0.2;
     double d = 0.3;
